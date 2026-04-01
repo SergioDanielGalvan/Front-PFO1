@@ -56,23 +56,25 @@
         </div>
     </header>
     <section id = "Registrarse">
-        <form id = "formRegistrarse" name="formRegistrarse" method="post" action="procesar.php">
-            <h3>Registrarse</h3>
-            <label class="labelRegistrarse" for="nombres">Nombres: </label>
-            <input type="text" class = "input_registrarse input_text" name="nombres" maxlength="60" placeholder="Juan Carlos" required />
-            <label class="labelRegistrarse" for="apellidos">Nombres: </label>
-            <input type="text" class = "input_registrarse input_text" name="apellidos" maxlength="60" placeholder="Perez"  />
-            <label class="labelRegistrarse" for="edad">Edad: </label>
-            <input type="number" class = "input_registrarse" name="edad" maxlength="5" minvalue="18" maxvalue="120" placeholder="25"  />
-            <label class="labelRegistrarse" for="correo">Correo: </label>
-            <input type="email" class = "input_registrarse input_text" name="correo" maxlength="60" placeholder="juan@perez.com" required />
-            <label class="labelRegistrarse" for="contraseña">Contraseña: </label>
-            <input type="password" class = "input_registrarse" name="contraseña" maxlength="20" minlength="6" placeholder="Contraseña" required />
-            <div id="botonesRegistrarse">
-                <input type="submit" class = "botonRegistrarse" />
-                <input type="reset" class = "botonRegistrarse" />
-            </div>
-        </form>
+        <div class="section-card" >
+            <form id = "formRegistrarse" name="formRegistrarse" method="post" action="procesar.php">
+                <h3>Registrarse</h3>
+                <label class="labelRegistrarse" for="nombres">Nombres: </label>
+                <input type="text" class = "input_registrarse input_text" name="nombres" maxlength="60" placeholder="Juan Carlos" required />
+                <label class="labelRegistrarse" for="apellidos">Apellidos: </label>
+                <input type="text" class = "input_registrarse input_text" name="apellidos" maxlength="60" placeholder="Perez"  />
+                <label class="labelRegistrarse" for="edad">Edad: </label>
+                <input type="number" class = "input_registrarse" name="edad" maxlength="5" minvalue="18" maxvalue="120" placeholder="25"  />
+                <label class="labelRegistrarse" for="correo">Correo: </label>
+                <input type="email" class = "input_registrarse input_text" name="correo" maxlength="60" placeholder="juan@perez.com" required />
+                <label class="labelRegistrarse" for="contraseña">Contraseña: </label>
+                <input type="password" class = "input_registrarse" name="contraseña" maxlength="20" minlength="6" placeholder="Contraseña" required />
+                <div id="botonesRegistrarse">
+                    <input type="submit" class = "botonRegistrarse" />
+                    <input type="reset" class = "botonRegistrarse" />
+                </div>
+            </form>
+        </div>
     </section>
     <footer id="piedepagina">
         <div id="seccionespie">

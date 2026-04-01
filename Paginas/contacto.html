@@ -55,22 +55,25 @@
             </a>
         </div>
     </header>
+
     <section id = "Contacto">
-        <form id = "formContacto" name="formContacto" method="post" action="procesar.php">
-            <h3>Formulario de Contacto</h3>
-            <label class="labelContacto" for="nombre">Nombre: </label>
-            <input type="text" class = "input_contacto" name = "nombre" minlength = "5" maxlength = "40" placeholder = "Juan Perez" required />
-            <label class="labelContacto" for="correo">Correo: </label>
-            <input type="email" class = "input_contacto" name = "correo" maxlength = "60" placeholder = "juan@perez.com" required />
-            <label class="labelContacto" for="telefono">Teléfono: </label>
-            <input type="text" class = "input_contacto" name = "telefono"maxlength = "20" placeholder = "(11) 1234-5678" />
-            <label class="labelContacto" for="mensaje">Mensaje: </label>
-            <textarea type="text" class = "textarea_contacto" name = "mensaje" maxlength = "300" placeholder = "Mensaje a enviar" ></textarea>
-            <div id="botonesContacto">
-                <input type="submit" class = "botonContacto" /> 
-                <input type="reset" class = "botonContacto" />
-            </div>
-        </form>
+        <div class="section-card" >
+            <form id = "formContacto" name="formContacto" method="post" action="procesar.php">
+                <h3>Formulario de Contacto</h3>
+                <label class="labelContacto" for="nombre">Nombre: </label>
+                <input type="text" class = "input_contacto" name = "nombre" minlength = "5" maxlength = "40" placeholder = "Juan Perez" required />
+                <label class="labelContacto" for="correo">Correo: </label>
+                <input type="email" class = "input_contacto" name = "correo" maxlength = "60" placeholder = "juan@perez.com" required />
+                <label class="labelContacto" for="telefono">Teléfono: </label>
+                <input type="text" class = "input_contacto" name = "telefono"maxlength = "20" placeholder = "(11) 1234-5678" />
+                <label class="labelContacto" for="mensaje">Mensaje: </label>
+                <textarea type="text" class = "textarea_contacto" name = "mensaje" maxlength = "300" placeholder = "Mensaje a enviar" ></textarea>
+                <div id="botonesContacto">
+                    <input type="submit" class = "botonContacto" /> 
+                    <input type="reset" class = "botonContacto" />
+                </div>
+            </form>
+        </div>
     </section>
     <footer id="piedepagina">
         <div id="seccionespie">

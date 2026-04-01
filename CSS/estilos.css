@@ -39,6 +39,29 @@ header #iconos a {
     cursor: pointer;
 }
 
+/* Genéricos */
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section-card {
+    background: #1e1e2f;        /* fondo oscuro pero con algo de contraste */
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+/* Fin Genéricos */
+
 /* menuprincipal */
 
 #listamenu > li {
