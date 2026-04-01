@@ -1061,8 +1061,8 @@ header #iconos a {
 }
 
 #seccionListaDesarrolladores div img {
-    width: 60%;
-    margin: 10px 0px 0px 15px;
+    width: 70%;
+    margin: 20px 0px 0px 10px;
     -webkit-transition: all 0.7s ease; 
     -moz-transition: all 1s ease;
 }
