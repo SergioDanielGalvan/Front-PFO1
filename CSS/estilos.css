@@ -60,6 +60,13 @@ h2 {
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
 }
 
+.support-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
 /* Fin Genéricos */
 
 /* menuprincipal */
@@ -813,8 +820,6 @@ h2 {
     border-color: white;
 }
 
-
-
 /* Fin Página Contacto */
 
 /* Inicio Página Registrarse */
@@ -1201,8 +1206,18 @@ h2 {
     font: bold 12px Arial, sans-serif;
  }
 
+ #telefono {
+    color: black;
+    font: bold 12px Arial, sans-serif;
+ }
+
  #correo::after {
     content: "info\40 mundogaming.com.ar";
  }
+
+ #telefono::after {
+    content: " +54 11 1234-5678";
+ }
+
 
  /* Fin Footer */
