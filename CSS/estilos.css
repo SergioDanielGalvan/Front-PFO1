@@ -39,6 +39,36 @@ header #iconos a {
     cursor: pointer;
 }
 
+/* Genéricos */
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section-card {
+    background: #1e1e2f;        /* fondo oscuro pero con algo de contraste */
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+.support-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Fin Genéricos */
+
 /* menuprincipal */
 
 #listamenu > li {
@@ -485,12 +515,8 @@ header #iconos a {
 
 #soporte {
     width: 98%;
-    border-color: black;
+    margin-top: 5px;
     align-content: center;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 20px / 10px;
-    box-shadow: rgb(8, 8, 8) 5px 5px 20px;
 }
  
 #formDatosSoporte {
@@ -505,6 +531,7 @@ header #iconos a {
     border-color: black;
     border-style: solid;
     border-width: 1px;
+    border-radius: 24px;
     box-shadow: rgb(8, 8, 8) 5px 5px 20px;
     background-color: rgb(55, 109, 246);
 }
@@ -676,12 +703,7 @@ header #iconos a {
 
 #Contacto {
     width: 98%;
-    border-color: black;
-    border-style: solid;
-    border-width: 3px;
-    /*background-color: rgb(55, 109, 246);*/
-    border-radius: 20px / 10px;
-    box-shadow: rgb(8, 8, 8) 5px 5px 20px;
+    margin-top: 5px;
 }
 
 #formContacto {
@@ -695,6 +717,7 @@ header #iconos a {
     width: 450%;
     margin: 10px 0px 10px 33%;
     */
+    border-radius: 24px;
     background-color: rgb(55, 109, 246);
     padding-left: 10px;
     text-align: left;
@@ -789,8 +812,6 @@ header #iconos a {
     transition: all 1s ease-in;
     border-color: white;
 }
-
-
 
 /* Fin Página Contacto */
 
@@ -1178,8 +1199,18 @@ header #iconos a {
     font: bold 12px Arial, sans-serif;
  }
 
+ #telefono {
+    color: black;
+    font: bold 12px Arial, sans-serif;
+ }
+
  #correo::after {
     content: "info\40 mundogaming.com.ar";
  }
+
+ #telefono::after {
+    content: " +54 11 1234-5678";
+ }
+
 
  /* Fin Footer */
